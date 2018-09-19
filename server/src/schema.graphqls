@@ -1,0 +1,13 @@
+type Query {
+  hello: String
+}
+
+type Subscription {
+  registerScreen(registrationCode: String!): RegisterScreenResult!
+}
+
+type RegisterScreenResult {
+  username: String!
+  accessToken: String!
+  refreshToken: String!
+}

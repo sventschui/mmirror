@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "prettier", "plugin:flowtype/recommended"],
+  "plugins": ["prettier", "flowtype"],
+  "rules": {
+    "prettier/prettier": ["error"],
+    "react/jsx-filename-extension": ["error", { "extensions": [".js"] }],
+    "react/jsx-one-expression-per-line": 0,
+    "react/jsx-closing-tag-location": 0
+  }
+}
